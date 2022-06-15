@@ -1,0 +1,32 @@
+Title: Mini guía legal para un website
+Description: Una muestra de QnA para newbies
+Before: <center><h2>Mini guía legal antes de lanzar el website</h2></center>
+
+Q(1): ¿Tienes un website?
+A: Si.
+	Q(1.1): Viniste al lugar adecuado. ¿Registraste tu marca ante INDECOPI?
+	A: Si.
+		Q(1.1.1): Genial, no es indispensable pero sí un gran paso.
+		A: Gracias
+			Q(1.1.1.1): ¿Ofreces productos y/o servicios?
+			A: Si.
+				Q(1.1.1.1.1): En este caso, debes contar con un Libro de Reclamaciones Virtual
+				A: Lo sabía
+					Q(1.1.1.1.1.1):GOTO:1.1.1.1.1.2
+				A: No lo imaginaba
+					Q(1.1.1.1.1.2): ¿Recopilas datos y/o almacenas cookies?
+					A: Si.
+						Q(1.1.1.1.1.2.1): Perfecto, podemos ayudarte a implementar una Política de Privacidad y uso de Cookies
+					A: No.
+						Q(1.1.1.1.1.2.2):Entiendo, creo que deberías verificar esta información con tu departamento de TI
+			A: No.
+				Q(1.1.1.1.2):GOTO:1.1.1.1.1.2
+	A: No.
+		Q(1.1.2): No hay problema, no es indispensable.
+		A: Uff
+			Q(1.1.2.1):GOTO:1.1.1.1
+			
+			A: No.
+				Q(1.1.2.1.1):GOTO:1.1.1.1.1.2
+A: No.
+	Q(1.2): ¡Hasta Pronto!
